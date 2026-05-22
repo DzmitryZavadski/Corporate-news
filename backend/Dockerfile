@@ -1,4 +1,5 @@
 # Этап 1: Сборка jar-файла с помощью JDK
+
 FROM eclipse-temurin:21-jdk-alpine AS build
 WORKDIR /app
 # Копируем файлы сборщика gradle
