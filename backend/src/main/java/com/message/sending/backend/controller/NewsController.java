@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/news")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
 public class NewsController {
     private final NewsService newsService;
 
